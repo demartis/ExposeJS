@@ -35,10 +35,11 @@
 	
 	          $overlay
 	          	.height($('body').height())
-	          	//.width($(window).width())
-              .css({
-                zIndex: options.overlayZindex
-              });
+	          		//.width($(window).width())
+	          		.css({
+	          			zIndex: options.overlayZindex
+	          			
+	          		});
 	
 	          $('body').append($overlay);
 	      };
