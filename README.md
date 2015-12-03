@@ -12,7 +12,7 @@ $(block).expose({show:true});
 ```
 
 
-Reset the current highlighed block:
+Reset the current highlighted block:
 
 ```
 $("body").expose({reset:true});
